@@ -1,3 +1,4 @@
+#This code runs om my ML desktop. I tried building the model on the Pi but it failed, I don't think there was enough memory. I was able to build the model on an ubuntu server with 32GB of RAM.
 if __name__ == '__main__':
     from ultralytics import YOLO
     from datetime import datetime
