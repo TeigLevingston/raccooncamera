@@ -11,7 +11,7 @@ DC 3-24V 95 dB Electronic Buzzer Active Piezo Buzzer Alarm Sounder Continuous So
 HXT 900 Servo (repurposed from an old RC plane)<br/>
 Logitech USB web camera<br/><br/>
 <b>Wiring</b><br/>
-The wiring is what you would expect. The relay plugs into the Pi's 5V, ground, and pin 14. The Servo plugs into the Pi’s 5V, ground, and pin 24. I am using the gpiozero library with the default pin factory, though I may change it later to reduce the servo's PWM jitter.<br/><br/>
+The wiring is what you would expect. The relay plugs into the Pi's 5V, ground, and pin 14. The Servo plugs into the Pi’s 5V, ground, and pin 24. I am using the gpiozero library with the default pin factory, though I may change it later to reduce the servo's PWM jitter. THe USB Webcam plugs into a USB Port.<br/><br/>
 <b>Code</b><br/>
 The code for the Pi is in the Pi folder. It is straightforward. I capture an image from the webcam, store it, and then capture a second image, comparing their numpy means to detect a change. When I detect a change, the image is processed through YoloV8 and the custom classification model I created with images of raccoons, cats, and various other things. The code creates a couple of files and pumps data to them for analysis.<br/>
 The most interesting part of the project was creating the classification model. There are a number of generic models you can use for classification, but none of the ones I found included raccoons eating from a cat bowl as types. Using Yolo is an easy way to create a model, but unless the images are very representative, the model won’t function in the real world.<br/>
