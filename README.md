@@ -1,5 +1,5 @@
 # raccooncamera
-An exercise in using Machine Learning on a Raspberry PI on the edge.<br/><br/>
+An exercise in using Machine Learning on the edge using a Raspberry PI .<br/><br/>
 TL;DR: I created a raccoon alarm using a Pi5, YoloV8, and some parts I had lying around to scare raccoons away from our cat bowl.
 There are many tutorials, all of which are worthwhile and work, but they aren’t realistic applications. My purpose for the project was to gain more experience in building models and curating datasets.<br/><br/>
 <b>Challenge</b><br/>
