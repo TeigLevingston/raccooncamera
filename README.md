@@ -20,3 +20,9 @@ I started by trying to use the COCO data set supplemented with raccoon images fr
 With the new model, I could capture enough images of raccoons, cats, etc., to build a representative dataset. Since scaring the cat was an absolute no-go, false alarms were a major concern, the set probably won’t generalize. <br/>
 The code for training the model using the YOLO library is straightforward. Several parameters can be passed through YOLO to configure the training set. I limited the image manipulation during training as the target environment is fixed. This will lead to a generalization limit of the model but expose more of the data curation elements I was interested in.
 The whole contraption is stored inside of an old plastic owl I found.
+
+The videos of this in action are at 
+[Alarm Test](https://www.levingstons.net/Raccoon_AlarmTest.html)
+[The cat eating with no alarm](https://www.levingstons.net/Cat_no_alarm.html)
+[A raccoon setting off the alarm](https://www.levingstons.net/raccoon_alarm.html)
+The last one is kind of funny but no raccoons were harmed in this experiment.
