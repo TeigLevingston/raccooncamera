@@ -23,6 +23,9 @@ The whole contraption is stored inside of an old plastic owl I found.
 
 The videos of this in action are at 
 [Alarm Test](https://www.levingstons.net/Raccoon_AlarmTest.html)
+
 [The cat eating with no alarm](https://www.levingstons.net/Cat_no_alarm.html)
+
 [A raccoon setting off the alarm](https://www.levingstons.net/raccoon_alarm.html)
+
 The last one is kind of funny but no raccoons were harmed in this experiment.
