@@ -142,6 +142,8 @@ class Hardware:
             time.sleep(pause)
             self.relay.off()
             self.servo.min()
+            time.sleep(pause)
+        self.servo.min()
         self.servo.max()
 
 
